@@ -403,6 +403,19 @@ background: #71b100;
         grid-column-gap: 2rem;
     } 
 }
+.embed-container {
+    position: relative;
+    padding-bottom: 80%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 .texto-nosotros blockquote{
     font-weight: 900;
