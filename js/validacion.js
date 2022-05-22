@@ -12,9 +12,9 @@ form.addEventListener("submit", (e) => {
   
   // Elemento div vacío con id "error" donde se cargarán los mensajes
   const error = document.getElementById("error");
+  const MENSAJES = [];
   
   // Lista de mensajes que inicia vacía y se va llenando a medida que se encuentra un error
-  const MENSAJES = [];
   error.innerText = "";
   if (!isValid(nombre)) {
     MENSAJES.push("*Por favor, introduzca un nombre válido");
@@ -47,6 +47,12 @@ form.addEventListener("submit", (e) => {
     // Se cargan todos los errores de la lista de mensajes en el elemento div unidos por "\n" que es un quiebre de linea
     error.innerText = MENSAJES.join("\n");
   
+  }
+
+  
+  if(MENSAJES.length == 0){
+    console.log("todo ok")
+    swal("Realizado", "Ha sido enviado correctamente!");
   }
 });
 
