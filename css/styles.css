@@ -15,6 +15,7 @@ body{
 /**Globales */
 img{
     max-width: 100%;
+    align-self: start;
 }
 .contenedor{
     width: 95%;
@@ -84,7 +85,7 @@ background: #71b100;
 /* Header */
 .site-header{
     background-color: #333333;
-    padding: 1rem 0 3rem 0;
+    padding: 1rem 0 0rem 0;
 }
 
 .site-header.inicio{
@@ -115,12 +116,13 @@ background: #71b100;
 }
 .barra{
     padding-top: 3rem;
+    
 }
 @media(min-width:768px){
     .barra{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        
       
     }
 }
