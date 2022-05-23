@@ -209,7 +209,7 @@ background: #71b100;
     
 }
 
-/* Aca estan las Transiciones */
+/* Aca estan las transiciones */
 .anuncio:hover img {
     
     -webkit-filter: grayscale(0);
