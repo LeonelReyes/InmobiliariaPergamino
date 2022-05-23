@@ -92,7 +92,7 @@ background: #71b100;
 /* Header */
 .site-header{
     background-color: #333333;
-    padding: 1rem 0 0rem 0;
+    padding: 0rem 0 0rem 0;
 }
 
 .site-header.inicio{
@@ -291,6 +291,7 @@ background: #71b100;
     }
     .seccion-inferior .blog {
         flex-basis: 60%;
+        margin-bottom: 2rem;
     }
     .seccion-inferior .testimoniales{
         flex-basis: calc(40% - 2rem);
