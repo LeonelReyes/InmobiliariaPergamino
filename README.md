@@ -6,7 +6,7 @@
 
 ##La pagina esta hosteada en Netlify: ##https://inmobiliariapergamino.netlify.app/
 
-##Cuenta con 5 paginas totalmente responsive.
+##Cuenta con 7 paginas totalmente responsive.
 
 ##Esta separado en secciones.
 
